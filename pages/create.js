@@ -25,6 +25,7 @@ export default function CreatePlacePage() {
       return;
     }
     mutate();
+    router.push("/");
   }
 
   return (
